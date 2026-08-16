@@ -1023,3 +1023,6 @@ async def queue_command(_, message: Message):
         )
 
         text += (
+    f"`{index}.` {icon} "
+    f"{song['title']}\n"
+        )
