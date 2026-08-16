@@ -666,7 +666,7 @@ async def play_command(
         )
 
         return
-
+f"**{item['title']}**"
     chat_id = message.chat.id
 
     if chat_id not in queues:
